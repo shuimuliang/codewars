@@ -2,7 +2,7 @@
 // https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/rust
 // TODO: 迭代器写法
 
-fn descending_order(x: u64) -> u64 {
+pub fn descending_order(x: u64) -> u64 {
     let mut vec: Vec<u64> = Vec::new();
     let mut left: u64 = x;
     let mut res: u64 = 0;

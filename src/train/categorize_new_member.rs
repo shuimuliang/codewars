@@ -5,7 +5,7 @@ enum Grade {
     Senior,
 }
 
-fn open_or_senior(data: Vec<(i32, i32)>) -> Vec<String> {
+pub fn open_or_senior(data: Vec<(i32, i32)>) -> Vec<String> {
     let mut v: Vec<String> = Vec::new();
     for (i, j) in data.iter() {
         match open_or_senior_item(*i, *j) {
