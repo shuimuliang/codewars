@@ -5,6 +5,9 @@ mod which_are_in;
 mod playing_with_digits;
 mod sum_of_odd_numbers;
 mod highest_scoring_word;
+mod exes_and_ohs;
+mod rectangle_into_squares;
+// mod square_into_squares;
 
 pub use self::descending_order::descending_order;
 pub use self::categorize_new_member::open_or_senior;
@@ -13,3 +16,6 @@ pub use self::which_are_in::in_array;
 pub use self::playing_with_digits::dig_pow;
 pub use self::sum_of_odd_numbers::row_sum_odd_numbers;
 pub use self::highest_scoring_word::high;
+pub use self::exes_and_ohs::xo;
+pub use self::rectangle_into_squares::sq_in_rect;
+// pub use self::square_into_squares
