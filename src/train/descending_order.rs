@@ -2,6 +2,13 @@
 // https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/rust
 // TODO: 迭代器写法
 
+// use std::iter::FromIterator;
+// fn descending_order(x: u64) -> u64 {
+//     let mut result = x.to_string().chars().collect::<Vec<char>>();
+//     result.sort_by(|a, b| b.cmp(a));
+//     String::from_iter(result).parse::<u64>().unwrap()
+// }
+
 pub fn descending_order(x: u64) -> u64 {
     let mut vec: Vec<u64> = Vec::new();
     let mut left: u64 = x;
