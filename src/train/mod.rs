@@ -9,6 +9,9 @@ mod exes_and_ohs;
 mod rectangle_into_squares;
 mod consecutive_strings;
 mod rot13;
+mod duplicate_encoder;
+mod cafeteria;
+mod simple_substitution_cipher_helper;
 
 pub use self::descending_order::descending_order;
 pub use self::categorize_new_member::open_or_senior;
@@ -21,3 +24,4 @@ pub use self::exes_and_ohs::xo;
 pub use self::rectangle_into_squares::sq_in_rect;
 pub use self::consecutive_strings::longest_consec;
 pub use self::rot13::rot13;
+pub use duplicate_encoder::duplicate_encode;
