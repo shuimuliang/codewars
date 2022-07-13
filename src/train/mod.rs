@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 mod categorize_new_member;
 mod descending_order;
 mod regex_validate_pin_code;
@@ -14,18 +16,4 @@ mod cafeteria;
 mod simple_substitution_cipher_helper;
 mod l1_bartender_drinks;
 mod human_readable_duration_format;
-
-pub use self::descending_order::descending_order;
-pub use self::categorize_new_member::open_or_senior;
-pub use self::regex_validate_pin_code::validate_pin;
-pub use self::which_are_in::in_array;
-pub use self::playing_with_digits::dig_pow;
-pub use self::sum_of_odd_numbers::row_sum_odd_numbers;
-pub use self::highest_scoring_word::high;
-pub use self::exes_and_ohs::xo;
-pub use self::rectangle_into_squares::sq_in_rect;
-pub use self::consecutive_strings::longest_consec;
-pub use self::rot13::rot13;
-pub use duplicate_encoder::duplicate_encode;
-pub use l1_bartender_drinks::get_drink_by_profession;
-pub use human_readable_duration_format::format_duration;
+mod esolang_interpreters_1;
