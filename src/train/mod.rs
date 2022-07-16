@@ -17,3 +17,5 @@ mod simple_substitution_cipher_helper;
 mod l1_bartender_drinks;
 mod human_readable_duration_format;
 mod esolang_interpreters_1;
+mod the_if_function;
+
