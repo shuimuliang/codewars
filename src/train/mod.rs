@@ -18,4 +18,5 @@ mod l1_bartender_drinks;
 mod human_readable_duration_format;
 mod esolang_interpreters_1;
 mod the_if_function;
+mod the_observed_pin;
 
