@@ -21,3 +21,4 @@ mod the_if_function;
 mod the_observed_pin;
 mod fixme_replace_all_dots;
 mod assembler_interpreter_part_two;
+mod algebraic_list;
